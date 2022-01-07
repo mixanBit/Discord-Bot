@@ -17,8 +17,8 @@ for (const file of commandFiles) {
     bot.commands.set(el, comand)
   });
 }
-console.log(bot.commands);
-
+// console.log(bot.commands);
+console.log('token: ' + config.token);
 // Токен для хоста
 bot.login(config.token)
 // bot.login(process.env.token)
