@@ -19,4 +19,8 @@ for (const file of commandFiles) {
 }
 console.log(bot.commands);
 
-bot.login(config.token);
+// Токен для хоста
+// bot.login(config.token)
+bot.login(process.env.token)
+// Токен для теста
+// bot.login("")
